@@ -72,9 +72,13 @@ public class MainActivity extends Activity {
         tvIcon4.setBackgroundDrawable(icon4);
         tvIcon4.setClickable(true);
 
-        Drawable color1 = OneDrawable.createBgColorWithAlphaMode(this, getResources().getColor(R.color.colorPrimary));
-        tvColor1.setBackgroundDrawable(color1);
+//        Drawable color1 = OneDrawable.createBgColorWithAlphaMode(this, getResources().getColor(R.color.colorPrimary));
+//        tvColor1.setBackgroundDrawable(color1);
+//        tvColor1.setClickable(true);
+        Drawable color1 = OneDrawable.createBgDrawableWithDarkMode(this,R.drawable.bg_gradient_btn);
+        tvColor1.setBackground(color1);
         tvColor1.setClickable(true);
+
 
         Drawable color2 = OneDrawable.createBgColor(this, getResources().getColor(R.color.colorAccent));
         tvColor2.setBackgroundDrawable(color2);
