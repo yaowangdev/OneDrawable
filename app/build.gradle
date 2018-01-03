@@ -37,5 +37,5 @@ android {
 
 dependencies {
 //    compile 'com.github.maoruibin:OneDrawable:1.0.2'
-    compile project(":library")
+    compile project(":one-drawable")
 }

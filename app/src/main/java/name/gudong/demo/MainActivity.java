@@ -22,7 +22,8 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import name.gudong.statebackground.OneDrawable;
+import name.gudong.drawable.OneDrawable;
+
 
 public class MainActivity extends Activity {
     private TextView tvIcon1;
